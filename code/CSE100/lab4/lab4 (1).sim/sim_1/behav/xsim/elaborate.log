@@ -1,0 +1,45 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 1d3f704a3c7e44f0842c9670f8838371 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot lab4_test_behav xil_defaultlib.lab4_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.questionMark
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=9.125...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.XOR2
+Compiling module unisims_ver.FDCE_default
+Compiling module xil_defaultlib.FTCE_MXILINX_clkcntrl4
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.AND4
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.AND3
+Compiling module unisims_ver.AND2
+Compiling module unisims_ver.VCC
+Compiling module xil_defaultlib.CB4CE_MXILINX_clkcntrl4
+Compiling module unisims_ver.BUF
+Compiling module xil_defaultlib.clkcntrl4
+Compiling module unisims_ver.STARTUPE2
+Compiling module xil_defaultlib.lab4_clks
+Compiling module unisims_ver.FDRE_default
+Compiling module xil_defaultlib.edgeDetector
+Compiling module xil_defaultlib.countUD4L
+Compiling module xil_defaultlib.counterUD16L
+Compiling module unisims_ver.FDRE(INIT=1'b1)
+Compiling module xil_defaultlib.ringCounter
+Compiling module xil_defaultlib.selector
+Compiling module xil_defaultlib.m8_1
+Compiling module xil_defaultlib.hex7seg
+Compiling module xil_defaultlib.lab4_top
+Compiling module xil_defaultlib.lab4_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot lab4_test_behav

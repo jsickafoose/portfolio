@@ -1,0 +1,14 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/jsickafo/Desktop/lab3/lab3.sim/sim_1/behav/xsim/glbl.v,1579893418,verilog,,,,glbl,,,,,,,,
+C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sim_1/imports/lab3.sim/lab3_tests.v,1579899555,verilog,,,,lab2_tests,,,,,,,,
+C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/imports/lab3/lab3.srcs/lab3_digsel.v,1579893418,verilog,,C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/new/lab3_top.v,,CB4CE_MXILINX_clkcntrl4;FTCE_MXILINX_clkcntrl4;clk_wiz_0;clkcntrl4;lab3_digsel,,,,,,,,
+C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/new/fullAdder.v,1579897979,verilog,,C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/new/hex7seg.v,,fullAdder,,,,,,,,
+C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/new/hex7seg.v,1579898750,verilog,,C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/new/incrementer.v,,hex7seg,,,,,,,,
+C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/new/incrementer.v,1579895364,verilog,,C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/imports/lab3/lab3.srcs/lab3_digsel.v,,incrementer,,,,,,,,
+C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/new/lab3_top.v,1579898732,verilog,,C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/new/m2_1x8.v,,lab3_top,,,,,,,,
+C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/new/m2_1x8.v,1579898824,verilog,,C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/new/m4_1.v,,m2_1x8,,,,,,,,
+C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/new/m4_1.v,1579893418,verilog,,C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/new/m8_1.v,,m4_1,,,,,,,,
+C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/new/m8_1.v,1579893419,verilog,,C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sim_1/imports/lab3.sim/lab3_tests.v,,m8_1,,,,,,,,

@@ -1,0 +1,170 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Jan 16 14:50:40 2020
+# Process ID: 3300
+# Current directory: D:/Windows/Downloads/lab2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6700 D:\Windows\Downloads\lab2\lab2.xpr
+# Log file: D:/Windows/Downloads/lab2/vivado.log
+# Journal file: D:/Windows/Downloads/lab2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Windows/Downloads/lab2/lab2.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/jsickafo/Downloads/lab2/.Xil/Vivado-6508-104PC10/PrjAr/_X_' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programs/Xilinix/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: lab2
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1076.648 ; gain = 155.887
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'lab2' [D:/Windows/Downloads/lab2/lab2.srcs/sources_1/new/lab2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Adder' [D:/Windows/Downloads/lab2/lab2.srcs/sources_1/new/Adder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'fullAdder' [D:/Windows/Downloads/lab2/lab2.srcs/sources_1/new/fullAdder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'fullAdder' (1#1) [D:/Windows/Downloads/lab2/lab2.srcs/sources_1/new/fullAdder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Adder' (2#1) [D:/Windows/Downloads/lab2/lab2.srcs/sources_1/new/Adder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'segConv' [D:/Windows/Downloads/lab2/lab2.srcs/sources_1/new/segConv.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'segConv' (3#1) [D:/Windows/Downloads/lab2/lab2.srcs/sources_1/new/segConv.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'lab2' (4#1) [D:/Windows/Downloads/lab2/lab2.srcs/sources_1/new/lab2.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1146.707 ; gain = 225.945
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1146.707 ; gain = 225.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1146.707 ; gain = 225.945
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Windows/Downloads/lab2/lab2.srcs/constrs_1/imports/Desktop/Basys3_Master.xdc]
+Finished Parsing XDC File [D:/Windows/Downloads/lab2/lab2.srcs/constrs_1/imports/Desktop/Basys3_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1255.414 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:21 ; elapsed = 00:00:16 . Memory (MB): peak = 1295.191 ; gain = 374.430
+12 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:23 . Memory (MB): peak = 1295.191 ; gain = 608.281
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Windows/Downloads/lab2/lab2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'lab2' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Windows/Downloads/lab2/lab2.sim/sim_1/behav/xsim'
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+"xvlog --incr --relax -prj lab2_vlog.prj"
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'compile' step aborted
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Windows/Downloads/lab2/lab2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'lab2' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Windows/Downloads/lab2/lab2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj lab2_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Windows/Downloads/lab2/lab2.srcs/sources_1/new/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Windows/Downloads/lab2/lab2.srcs/sources_1/new/fullAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fullAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Windows/Downloads/lab2/lab2.srcs/sources_1/new/segConv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module segConv
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Windows/Downloads/lab2/lab2.srcs/sources_1/new/lab2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Windows/Downloads/lab2/lab2.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Windows/Downloads/lab2/lab2.sim/sim_1/behav/xsim'
+"xelab -wto 65950bbe893c4a9d9838f52c7b9120ed --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot lab2_behav xil_defaultlib.lab2 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programs/Xilinix/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 65950bbe893c4a9d9838f52c7b9120ed --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot lab2_behav xil_defaultlib.lab2 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.fullAdder
+Compiling module xil_defaultlib.Adder
+Compiling module xil_defaultlib.segConv
+Compiling module xil_defaultlib.lab2
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot lab2_behav
+
+****** Webtalk v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source D:/Windows/Downloads/lab2/lab2.sim/sim_1/behav/xsim/xsim.dir/lab2_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'D:/Windows/Downloads/lab2/lab2.sim/sim_1/behav/xsim/xsim.dir/lab2_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Jan 16 15:37:31 2020. For additional details about this file, please refer to the WebTalk help file at D:/Programs/Xilinix/Vivado/2019.1/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 86.133 ; gain = 0.000
+INFO: [Common 17-206] Exiting Webtalk at Thu Jan 16 15:37:31 2020...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:13 . Memory (MB): peak = 1369.480 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '13' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Windows/Downloads/lab2/lab2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "lab2_behav -key {Behavioral:sim_1:Functional:lab2} -tclbatch {lab2.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source lab2.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1371.820 ; gain = 0.078
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'lab2_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:22 . Memory (MB): peak = 1371.820 ; gain = 2.340
+archive_project D:/Windows/Downloads/lab2.xpr.zip -temp_dir D:/Windows/Downloads/lab2/.Xil/Vivado-3300-DESKTOP-NOA060L -force -include_local_ip_cache
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'D:/Windows/Downloads/lab2/.Xil/Vivado-3300-DESKTOP-NOA060L' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'

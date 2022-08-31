@@ -1,0 +1,58 @@
+
+
+# Java ignores
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# C ignores
+a.out
+*.o
+*.a
+*.so
+
+# Editor ignores
+*.bak
+*.swp
+*.swo
+*~
+
+# MPLABX ignores
+*.cof
+*.hex
+*.elf
+*.exe
+*.map
+*.mcp
+*.mcs
+*.mcw
+*.mk
+*.properties
+*.bash
+*.xml
+
+
+# Other
+*.DS_Store
+*.exe
+*.tgz
+*.tar
+*.pkg
+*.dmg
+*.img
+*.iso
+*.dll
+*.pdf
+*.zip
+*.7z
+
+# MPLABX Whitelist
+!project.xml
+!configurations.xml
+/Lab0/Lab0.X/dist/
+/Lab0/Lab0.X/build/

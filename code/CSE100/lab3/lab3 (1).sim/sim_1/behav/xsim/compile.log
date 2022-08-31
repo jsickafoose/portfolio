@@ -1,0 +1,25 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/new/fullAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fullAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/new/hex7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hex7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/new/incrementer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module incrementer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/imports/lab3/lab3.srcs/lab3_digsel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-311] analyzing module clkcntrl4
+INFO: [VRFC 10-311] analyzing module lab3_digsel
+INFO: [VRFC 10-2458] undeclared symbol clk, assumed default net type wire [C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/imports/lab3/lab3.srcs/lab3_digsel.v:237]
+INFO: [VRFC 10-311] analyzing module FTCE_MXILINX_clkcntrl4
+INFO: [VRFC 10-311] analyzing module CB4CE_MXILINX_clkcntrl4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/new/lab3_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab3_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/new/m2_1x8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module m2_1x8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/new/m4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module m4_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/new/m8_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module m8_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sim_1/imports/lab3.sim/lab3_tests.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab2_tests
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jsickafo/Desktop/lab3/lab3.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

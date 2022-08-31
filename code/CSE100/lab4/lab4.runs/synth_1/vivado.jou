@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Feb  6 14:42:32 2020
+# Process ID: 4140
+# Current directory: C:/Users/jsickafo/Desktop/lab4/lab4.runs/synth_1
+# Command line: vivado.exe -log lab4_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab4_top.tcl
+# Log file: C:/Users/jsickafo/Desktop/lab4/lab4.runs/synth_1/lab4_top.vds
+# Journal file: C:/Users/jsickafo/Desktop/lab4/lab4.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source lab4_top.tcl -notrace

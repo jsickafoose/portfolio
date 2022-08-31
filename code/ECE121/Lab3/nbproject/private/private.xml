@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/Windows/Desktop/jsickafo/src/FreeRunningTimer.c</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/include/Protocol.h</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/src/RotaryEncoder.c</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/src/CircularBuffer.c</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/src/Protocol.c</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/src/BOARD.c</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/include/RCServo.h</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/include/FreeRunningTimer.h</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/src/RCServo.c</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/src/PingSensor.c</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/include/NonVolatileMemory.h</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/src/NonVolatileMemory.c</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/include/BOARD.h</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/src/ADCFilter.c</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/include/ADCFilter.h</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/include/FrequencyGenerator.h</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/projects/Lab3/Lab3Application.c</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/include/LEDS.h</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/include/MessageIDs.h</file>
+        </group>
+    </open-files>
+</project-private>

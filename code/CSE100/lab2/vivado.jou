@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Jan 17 11:12:16 2020
+# Process ID: 4144
+# Current directory: C:/Users/jsickafo/Downloads/lab2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6700 C:\Users\jsickafo\Downloads\lab2\lab2.xpr
+# Log file: C:/Users/jsickafo/Downloads/lab2/vivado.log
+# Journal file: C:/Users/jsickafo/Downloads/lab2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/jsickafo/Downloads/lab2/lab2.xpr
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+open_hw_target
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+add_files -norecurse C:/Users/jsickafo/Downloads/lab2_tests.v
+update_compile_order -fileset sources_1
+move_files -fileset sim_1 [get_files  C:/Users/jsickafo/Downloads/lab2_tests.v]
+launch_simulation
+source lab2.tcl
+add_bp {C:/Users/jsickafo/Downloads/lab2/lab2.srcs/sources_1/new/fullAdder.v} 32
+add_bp {C:/Users/jsickafo/Downloads/lab2/lab2.srcs/sources_1/new/fullAdder.v} 33
+add_bp {C:/Users/jsickafo/Downloads/lab2/lab2.srcs/sources_1/new/fullAdder.v} 34
+add_bp {C:/Users/jsickafo/Downloads/lab2/lab2.srcs/sources_1/new/fullAdder.v} 35
+add_bp {C:/Users/jsickafo/Downloads/lab2/lab2.srcs/sources_1/new/fullAdder.v} 36
+synth_design -rtl -name rtl_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/jsickafo/Downloads/lab2/lab2.runs/impl_1/lab2.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+create_wave_config; add_wave /; set_property needs_save false [current_wave_config]
+close_sim
+launch_simulation
+source lab2_tests.tcl
+restart
+run 1500 ns
+relaunch_sim
+run 1500 ns
+relaunch_sim
+restart
+run 1500 ns
+run 1700 ns
+save_wave_config {C:/Users/jsickafo/Downloads/lab2/lab2_tests_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/jsickafo/Downloads/lab2/lab2_tests_behav.wcfg
+set_property xsim.view C:/Users/jsickafo/Downloads/lab2/lab2_tests_behav.wcfg [get_filesets sim_1]
+archive_project C:/Users/jsickafo/Desktop/lab2.xpr.zip -temp_dir C:/Users/jsickafo/Downloads/lab2/.Xil/Vivado-4144-104PC08 -force -include_local_ip_cache
+close_sim

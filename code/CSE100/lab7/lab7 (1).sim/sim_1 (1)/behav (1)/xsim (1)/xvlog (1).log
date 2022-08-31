@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Windows/Downloads/lab7/lab7.srcs/sources_1/new/blockSize.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blockSize
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Windows/Downloads/lab7/lab7.srcs/sources_1/new/counter10UDL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter10UDL
+INFO: [VRFC 10-311] analyzing module count2UDL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Windows/Downloads/lab7/lab7.srcs/sources_1/new/lab7_clks.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab7_clks
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-311] analyzing module clkcntrl4
+INFO: [VRFC 10-311] analyzing module FTCE_MXILINX_clkcntrl4
+INFO: [VRFC 10-311] analyzing module CB4CE_MXILINX_clkcntrl4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Windows/Downloads/lab7/lab7.srcs/sources_1/new/randomNum.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module randomNum
+INFO: [VRFC 10-311] analyzing module storeNum
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Windows/Downloads/lab7/lab7.srcs/sources_1/new/top_lab7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_lab7
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Windows/Downloads/lab7/lab7.srcs/sim_1/new/test_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_top

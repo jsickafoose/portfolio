@@ -1,0 +1,97 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Mar 10 11:22:53 2020
+| Host         : DESKTOP-NOA060L running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_lab7_control_sets_placed.rpt
+| Design       : top_lab7
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    19 |
+|    Minimum number of control sets                        |    19 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   104 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    19 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     5 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |    13 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     1 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              90 |           33 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             130 |           54 |
+| Yes          | No                    | No                     |              16 |            8 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               4 |            1 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------------+--------------------------------------+--------------------------+------------------+----------------+
+|        Clock Signal       |             Enable Signal            |     Set/Reset Signal     | Slice Load Count | Bel Load Count |
++---------------------------+--------------------------------------+--------------------------+------------------+----------------+
+|  lab7_clk/slowclk/clk_out | lab7_clk/slowclk/XLXI_45/CEO         |                          |                1 |              4 |
+|  lab7_clk/slowclk/clk_out | EdgeDetector1/adv0                   | StateMachine/reset       |                1 |              4 |
+|  lab7_clk/slowclk/clk_out | lab7_clk/slowclk/XLXI_38/I_36_31_n_0 |                          |                2 |              4 |
+|  lab7_clk/slowclk/clk_out | lab7_clk/slowclk/XLXI_39/CEO         |                          |                2 |              4 |
+|  lab7_clk/slowclk/clk_out | lab7_clk/slowclk/XLXI_40/CEO         |                          |                3 |              4 |
+|  Vcount/count3/clk0_BUFG  |                                      | Qsec/count4/Q0_FF_1      |                3 |             10 |
+|  Vcount/count3/clk0_BUFG  |                                      | frame/count1/Q0_FF_0     |                4 |             10 |
+|  Vcount/count3/clk0_BUFG  |                                      | StateMachine/reset       |                4 |             10 |
+|  lab7_clk/slowclk/clk_out |                                      | Hcount/count4/Q1_FF_0    |                5 |             10 |
+|  lab7_clk/slowclk/clk_out |                                      | Vcount/count1/Q1_FF_0    |                3 |             10 |
+|  lab7_clk/slowclk/clk_out |                                      | BlockPos5/count4/Q1_FF_0 |                6 |             10 |
+|  lab7_clk/slowclk/clk_out |                                      | BlockPos3/count0/Q1_FF_0 |                4 |             10 |
+|  lab7_clk/slowclk/clk_out |                                      | BlockPos4/count4/Q1_FF_0 |                4 |             10 |
+|  lab7_clk/slowclk/clk_out |                                      | BlockPos0/count4/Q1_FF_0 |                3 |             10 |
+|  lab7_clk/slowclk/clk_out |                                      | BlockPos1/count4/Q1_FF_0 |                4 |             10 |
+|  lab7_clk/slowclk/clk_out |                                      | BlockPos2/count4/Q1_FF_0 |                4 |             10 |
+|  lab7_clk/slowclk/clk_out |                                      | StateMachine/reset       |                3 |             10 |
+|  lab7_clk/slowclk/clk_out |                                      | BlockPos6/count4/Q1_FF_0 |                7 |             10 |
+|  lab7_clk/slowclk/clk_out |                                      |                          |               33 |             90 |
++---------------------------+--------------------------------------+--------------------------+------------------+----------------+
+
+

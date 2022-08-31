@@ -1,0 +1,164 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+  info [
+    "Universal Robot UR3e, UR5e and UR10e grasping cans using Robotiq 3F grippers."
+  ]
+  title "Universal Robot"
+  gravity 1.635
+  basicTimeStep 8
+  physicsDisableAngularThreshold 0.1
+  contactProperties [
+    ContactProperties {
+      bounce 0.1
+    }
+    ContactProperties {
+      material1 "slope"
+      coulombFriction [
+        0.5
+      ]
+    }
+  ]
+}
+Viewpoint {
+  orientation -0.30659168558585626 0.4966362233120163 0.8120061576268992 1.338946741207976
+  position -0.7285182005370914 -2.7019473495326 3.2627258245263784
+  exposure 1.7
+}
+Floor {
+  size 20 20
+  appearance ThreadMetalPlate {
+  }
+}
+Wall {
+  translation -2 0 0
+  size 0.2 5 0.2
+}
+Wall {
+  translation 2 0 0
+  name "wall(1)"
+  size 0.2 5 0.2
+}
+Wall {
+  translation 0 2 0
+  rotation 0 0 1 1.57
+  name "wall(2)"
+  size 0.2 5 0.2
+}
+Wall {
+  translation 0 -2 0
+  rotation 0 0 1 1.57
+  name "wall(3)"
+  size 0.2 5 0.2
+}
+WoodenBox {
+  size 0.2 0.2 0.6
+}
+UR10e {
+  translation 0 0 0.6
+  controller "part2_arm"
+  supervisor TRUE
+  toolSlot [
+    DEF end_effector Pen {
+      translation 0 0.05 0
+      rotation 0 0.7071067811862364 -0.7071067811862364 3.14159
+      children [
+        Transform {
+          translation 0 0 0.05
+          children [
+            Shape {
+              appearance BrushedAluminium {
+                colorOverride 0 0.4131074998092622 0.9919279774166476
+              }
+              geometry Cylinder {
+                height 0.05
+                radius 0.04
+                subdivision 24
+              }
+            }
+          ]
+        }
+        Transform {
+          translation 0 0 0.04
+          children [
+            Shape {
+              appearance BrushedAluminium {
+                colorOverride 0 0 0
+              }
+              geometry Cylinder {
+                height 0.07
+                radius 0.01
+                subdivision 12
+              }
+            }
+          ]
+        }
+      ]
+      inkColor 0.929412 0.2 0.231373
+      leadSize 0.01
+      maxDistance 0.02
+    }
+  ]
+}
+TexturedBackground {
+  texture "mars"
+}
+DEF fruit0 Apple {
+  translation -0.5 0.5 0.04999019000000002
+  rotation 0 -0.9999999999999999 0 1.5877149110025404
+}
+DEF fruit1 Apple {
+  translation 0.5 0.5 0.04999019000000002
+  rotation 0 -0.9999999999999999 0 1.5877149110025404
+  name "apple1"
+}
+DEF fruit2 Apple {
+  translation -0.5 -0.5 0.04999019000000002
+  rotation 0 -0.9999999999999999 0 1.5877149110025404
+  name "apple(2)"
+}
+DEF fruit3 Apple {
+  translation 0.5 -0.5 0.04999019000000002
+  rotation 0 -0.9999999999999999 0 1.5877149110025404
+  name "apple(3)"
+}
+DEF TARGET Solid {
+  translation 0 0 2.16
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2022a/projects/robots/abb/irb/worlds/textures/target.png"
+          ]
+        }
+        roughnessMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2022a/projects/robots/abb/irb/worlds/textures/target.png"
+          ]
+        }
+        metalnessMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2022a/projects/robots/abb/irb/worlds/textures/target.png"
+          ]
+        }
+        emissiveColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2022a/projects/robots/abb/irb/worlds/textures/target.png"
+          ]
+        }
+        textureTransform TextureTransform {
+          scale 2 1
+        }
+      }
+      geometry Sphere {
+        radius 0.05
+        subdivision 2
+      }
+    }
+  ]
+}
+Robot {
+  name "super"
+  controller "supervisor_controller"
+  supervisor TRUE
+}

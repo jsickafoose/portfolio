@@ -1,0 +1,15 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/jsickafo/Desktop/lab4/lab4.sim/sim_1/behav/xsim/glbl.v,1581018637,verilog,,,,glbl,,,,,,,,
+C:/Users/jsickafo/Desktop/lab4/lab4.srcs/sim_1/new/counter16_test.v,1581022226,verilog,,,,counter16_test,,,,,,,,
+C:/Users/jsickafo/Desktop/lab4/lab4.srcs/sim_1/new/lab4_test.v,1581027364,verilog,,,,lab4_test,,,,,,,,
+C:/Users/jsickafo/Desktop/lab4/lab4.srcs/sources_1/imports/lab4.srcs/lab4_clks.v,1581026435,verilog,,C:/Users/jsickafo/Desktop/lab4/lab4.srcs/sources_1/new/lab4_top.v,,CB4CE_MXILINX_clkcntrl4;FTCE_MXILINX_clkcntrl4;clk_wiz_0;clkcntrl4;lab4_clks,,,,,,,,
+C:/Users/jsickafo/Desktop/lab4/lab4.srcs/sources_1/new/countUD4L.v,1581018638,verilog,,C:/Users/jsickafo/Desktop/lab4/lab4.srcs/sources_1/new/counterUD16L.v,,countUD4L,,,,,,,,
+C:/Users/jsickafo/Desktop/lab4/lab4.srcs/sources_1/new/counterUD16L.v,1581020247,verilog,,C:/Users/jsickafo/Desktop/lab4/lab4.srcs/sources_1/new/edgeDetector.v,,counterUD16L,,,,,,,,
+C:/Users/jsickafo/Desktop/lab4/lab4.srcs/sources_1/new/edgeDetector.v,1581018638,verilog,,C:/Users/jsickafo/Desktop/lab4/lab4.srcs/sources_1/new/hex7seg.v,,edgeDetector,,,,,,,,
+C:/Users/jsickafo/Desktop/lab4/lab4.srcs/sources_1/new/hex7seg.v,1581018638,verilog,,C:/Users/jsickafo/Desktop/lab4/lab4.srcs/sources_1/imports/lab4.srcs/lab4_clks.v,,hex7seg;m8_1,,,,,,,,
+C:/Users/jsickafo/Desktop/lab4/lab4.srcs/sources_1/new/lab4_top.v,1581025618,verilog,,C:/Users/jsickafo/Desktop/lab4/lab4.srcs/sources_1/new/ringCounter.v,,lab4_top;questionMark,,,,,,,,
+C:/Users/jsickafo/Desktop/lab4/lab4.srcs/sources_1/new/ringCounter.v,1581025210,verilog,,C:/Users/jsickafo/Desktop/lab4/lab4.srcs/sources_1/new/selector.v,,ringCounter,,,,,,,,
+C:/Users/jsickafo/Desktop/lab4/lab4.srcs/sources_1/new/selector.v,1581018638,verilog,,C:/Users/jsickafo/Desktop/lab4/lab4.srcs/sim_1/new/lab4_test.v,,selector,,,,,,,,

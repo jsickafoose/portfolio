@@ -1,0 +1,1 @@
+ $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../Common"   -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)    D:\Windows\Desktop\Potato\class\ECE167\jsickafo\Common\Ascii.c

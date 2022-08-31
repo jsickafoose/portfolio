@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/Windows/Desktop/jsickafo/src/FreeRunningTimer.c</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/include/BOARD.h</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/include/MessageIDs.h</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/include/Protocol.h</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/include/FrequencyGenerator.h</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/src/RotaryEncoder.c</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/src/DCMotorDrive.c</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/include/DCMotorDrive.h</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/src/BOARD.c</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/src/FeedbackControl.c</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/src/ADCFilter.c</file>
+            <file>file:/C:/Users/jsick/.mchp_packs/Microchip/PIC32MX_DFP/1.1.215/xc32/startup/crt0.S</file>
+            <file>file:/C:/Program%20Files/Microchip/xc32/v2.50/pic32mx/include/lega-c/stdio.h</file>
+            <file>file:/C:/Users/jsick/.mchp_packs/Microchip/PIC32MX_DFP/1.1.215/include/proc/p32mx320f128h.h</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/src/NonVolatileMemory.c</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/include/RotaryEncoder.h</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/include/FreeRunningTimer.h</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/include/FeedbackControl.h</file>
+            <file>file:/D:/Windows/Desktop/jsickafo/projects/Lab5/Lab5Application.c</file>
+        </group>
+    </open-files>
+</project-private>

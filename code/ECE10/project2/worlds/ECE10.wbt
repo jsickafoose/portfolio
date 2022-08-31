@@ -1,0 +1,47 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+  info [
+    "ECE10 Lab 2: Odometry"
+    "Based on Prof. Brad Hayes, University of Colorado Boulder, Fall 2020"
+  ]
+  title "E-Puck"
+  coordinateSystem "NUE"
+  lineScale 0.04
+}
+Viewpoint {
+  orientation -0.700058250670436 0.6726220839793183 0.2397873595742026 2.5431584786159336
+  position 0.16029205919028 1.7556838777056978 1.699509122693206
+  follow "e-puck"
+  followType "None"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0.275 0 -0.21
+  rotation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0943951023931953
+  floorSize 0.9 0.9
+  floorTileSize 0.9 0.9
+  floorAppearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "texture/line_course.png"
+      ]
+    }
+    roughness 0.2
+    metalness 0
+  }
+  wallHeight 0.05
+}
+DEF EPUCK E-puck {
+  hidden position_0_0 -5.087160088058203e-09
+  hidden position_0_1 -4.0668903207063274e-09
+  translation -3.03083e-08 -6.3962e-05 0
+  rotation 0.5772628258947549 0.5773127919843801 0.5774751683416368 -2.094282681178666
+  controller "ece10_lab2"
+  groundSensorsSlot [
+    E-puckGroundSensors {
+    }
+  ]
+}

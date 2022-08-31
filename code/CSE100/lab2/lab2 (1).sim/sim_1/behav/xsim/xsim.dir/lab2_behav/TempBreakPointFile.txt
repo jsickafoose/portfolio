@@ -1,0 +1,6 @@
+Breakpoint File Version 1.0
+32 true C:/Users/jsickafo/Downloads/lab2/lab2.srcs/sources_1/new/fullAdder.v
+33 true C:/Users/jsickafo/Downloads/lab2/lab2.srcs/sources_1/new/fullAdder.v
+34 true C:/Users/jsickafo/Downloads/lab2/lab2.srcs/sources_1/new/fullAdder.v
+35 true C:/Users/jsickafo/Downloads/lab2/lab2.srcs/sources_1/new/fullAdder.v
+36 true C:/Users/jsickafo/Downloads/lab2/lab2.srcs/sources_1/new/fullAdder.v

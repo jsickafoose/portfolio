@@ -1,0 +1,10 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/jsickafo/Downloads/lab2/lab2.sim/sim_1/behav/xsim/glbl.v,1579288323,verilog,,,,glbl,,,,,,,,
+C:/Users/jsickafo/Downloads/lab2/lab2.srcs/sources_1/new/Adder.v,1579288324,verilog,,C:/Users/jsickafo/Downloads/lab2/lab2.srcs/sources_1/new/fullAdder.v,,Adder,,,,,,,,
+C:/Users/jsickafo/Downloads/lab2/lab2.srcs/sources_1/new/fullAdder.v,1579288324,verilog,,C:/Users/jsickafo/Downloads/lab2/lab2.srcs/sources_1/new/lab2.v,,fullAdder,,,,,,,,
+C:/Users/jsickafo/Downloads/lab2/lab2.srcs/sources_1/new/lab2.v,1579290192,verilog,,C:/Users/jsickafo/Downloads/lab2/lab2.srcs/sources_1/new/segConv.v,,lab2,,,,,,,,
+C:/Users/jsickafo/Downloads/lab2/lab2.srcs/sources_1/new/segConv.v,1579288324,verilog,,C:/Users/jsickafo/Downloads/lab2_tests.v,,segConv,,,,,,,,
+C:/Users/jsickafo/Downloads/lab2_tests.v,1579293032,verilog,,,,lab2_tests,,,,,,,,

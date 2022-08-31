@@ -1,0 +1,265 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Jan 24 12:01:04 2020
+# Process ID: 1712
+# Current directory: C:/Users/jsickafo/Desktop/lab3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9100 C:\Users\jsickafo\Desktop\lab3\lab3.xpr
+# Log file: C:/Users/jsickafo/Desktop/lab3/vivado.log
+# Journal file: C:/Users/jsickafo/Desktop/lab3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/jsickafo/Desktop/lab3/lab3.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 985.328 ; gain = 67.898
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Fri Jan 24 12:02:52 2020] Launched synth_1...
+Run output will be captured here: C:/Users/jsickafo/Desktop/lab3/lab3.runs/synth_1/runme.log
+[Fri Jan 24 12:02:52 2020] Launched impl_1...
+Run output will be captured here: C:/Users/jsickafo/Desktop/lab3/lab3.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:13:31
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A28398A
+open_hw_target: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1972.488 ; gain = 987.160
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/jsickafo/Desktop/lab3/lab3.runs/impl_1/lab3_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Fri Jan 24 12:10:49 2020] Launched synth_1...
+Run output will be captured here: C:/Users/jsickafo/Desktop/lab3/lab3.runs/synth_1/runme.log
+[Fri Jan 24 12:10:50 2020] Launched impl_1...
+Run output will be captured here: C:/Users/jsickafo/Desktop/lab3/lab3.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/jsickafo/Desktop/lab3/lab3.runs/impl_1/lab3_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Fri Jan 24 12:24:33 2020] Launched synth_1...
+Run output will be captured here: C:/Users/jsickafo/Desktop/lab3/lab3.runs/synth_1/runme.log
+[Fri Jan 24 12:24:33 2020] Launched impl_1...
+Run output will be captured here: C:/Users/jsickafo/Desktop/lab3/lab3.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/jsickafo/Desktop/lab3/lab3.runs/impl_1/lab3_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Fri Jan 24 12:39:49 2020] Launched synth_1...
+Run output will be captured here: C:/Users/jsickafo/Desktop/lab3/lab3.runs/synth_1/runme.log
+[Fri Jan 24 12:39:49 2020] Launched impl_1...
+Run output will be captured here: C:/Users/jsickafo/Desktop/lab3/lab3.runs/impl_1/runme.log
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/jsickafo/Desktop/lab3/lab3.runs/impl_1/lab3_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Fri Jan 24 12:47:44 2020] Launched synth_1...
+Run output will be captured here: C:/Users/jsickafo/Desktop/lab3/lab3.runs/synth_1/runme.log
+[Fri Jan 24 12:47:44 2020] Launched impl_1...
+Run output will be captured here: C:/Users/jsickafo/Desktop/lab3/lab3.runs/impl_1/runme.log
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/jsickafo/Desktop/lab3/lab3.runs/impl_1/lab3_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/jsickafo/Desktop/lab3/lab3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'lab2_tests' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/jsickafo/Desktop/lab3/lab3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj lab2_tests_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/new/fullAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fullAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/new/hex7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hex7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/new/incrementer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module incrementer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/imports/lab3/lab3.srcs/lab3_digsel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-311] analyzing module clkcntrl4
+INFO: [VRFC 10-311] analyzing module lab3_digsel
+INFO: [VRFC 10-2458] undeclared symbol clk, assumed default net type wire [C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/imports/lab3/lab3.srcs/lab3_digsel.v:237]
+INFO: [VRFC 10-311] analyzing module FTCE_MXILINX_clkcntrl4
+INFO: [VRFC 10-311] analyzing module CB4CE_MXILINX_clkcntrl4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/new/lab3_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab3_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/new/m2_1x8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module m2_1x8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/new/m4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module m4_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sources_1/new/m8_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module m8_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jsickafo/Desktop/lab3/lab3.srcs/sim_1/imports/lab3.sim/lab3_tests.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab2_tests
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jsickafo/Desktop/lab3/lab3.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/jsickafo/Desktop/lab3/lab3.sim/sim_1/behav/xsim'
+"xelab -wto ceaaf8e2c4ae417d8f8eccc08b635d32 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot lab2_tests_behav xil_defaultlib.lab2_tests xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ceaaf8e2c4ae417d8f8eccc08b635d32 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot lab2_tests_behav xil_defaultlib.lab2_tests xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=9.125...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.XOR2
+Compiling module unisims_ver.FDCE_default
+Compiling module xil_defaultlib.FTCE_MXILINX_clkcntrl4
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.AND4
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.AND3
+Compiling module unisims_ver.AND2
+Compiling module unisims_ver.VCC
+Compiling module xil_defaultlib.CB4CE_MXILINX_clkcntrl4
+Compiling module unisims_ver.BUF
+Compiling module xil_defaultlib.clkcntrl4
+Compiling module unisims_ver.STARTUPE2
+Compiling module xil_defaultlib.lab3_digsel
+Compiling module xil_defaultlib.m4_1
+Compiling module xil_defaultlib.fullAdder
+Compiling module xil_defaultlib.incrementer
+Compiling module xil_defaultlib.m8_1
+Compiling module xil_defaultlib.hex7seg
+Compiling module xil_defaultlib.m2_1x8
+Compiling module xil_defaultlib.lab3_top
+Compiling module xil_defaultlib.lab2_tests
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot lab2_tests_behav
+
+****** Webtalk v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/jsickafo/Desktop/lab3/lab3.sim/sim_1/behav/xsim/xsim.dir/lab2_tests_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/jsickafo/Desktop/lab3/lab3.sim/sim_1/behav/xsim/xsim.dir/lab2_tests_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri Jan 24 12:59:40 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2019.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Fri Jan 24 12:59:40 2020...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 2149.922 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '11' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/jsickafo/Desktop/lab3/lab3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "lab2_tests_behav -key {Behavioral:sim_1:Functional:lab2_tests} -tclbatch {lab2_tests.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source lab2_tests.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 2163.898 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'lab2_tests_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:22 . Memory (MB): peak = 2163.898 ; gain = 13.977
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 100 ns
+run 100 ns
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/jsickafo/Desktop/lab3/lab3.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream
+[Fri Jan 24 13:06:01 2020] Launched synth_1...
+Run output will be captured here: C:/Users/jsickafo/Desktop/lab3/lab3.runs/synth_1/runme.log
+[Fri Jan 24 13:06:01 2020] Launched impl_1...
+Run output will be captured here: C:/Users/jsickafo/Desktop/lab3/lab3.runs/impl_1/runme.log
+run 100 ns
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/jsickafo/Desktop/lab3/lab3.runs/impl_1/lab3_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+archive_project C:/Users/jsickafo/Desktop/lab3.xpr.zip -temp_dir C:/Users/jsickafo/Desktop/lab3/.Xil/Vivado-1712-104PC17 -force -include_local_ip_cache
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/jsickafo/Desktop/lab3/.Xil/Vivado-1712-104PC17' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [Coretcl 2-1209] Adding archive summary file to the project...
+INFO: [Coretcl 2-1214] Preparing project files for archive...
+INFO: [Coretcl 2-1210] Compressing project files and data...
+INFO: [Coretcl 2-1215] Project archived (C:/Users/jsickafo/Desktop/lab3.xpr.zip)
+INFO: [Coretcl 2-1216] To view the archive summary log in GUI, double click on 'Design Sources->Text->archive_project_summary.txt', or open this file from the archived project directory.
+archive_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 2339.301 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2339.301 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 24 13:20:29 2020...

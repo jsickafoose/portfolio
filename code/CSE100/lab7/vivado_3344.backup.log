@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Mar 10 11:41:38 2020
+# Process ID: 3344
+# Current directory: D:/Windows/Downloads/lab7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9000 D:\Windows\Downloads\lab7\lab7.xpr
+# Log file: D:/Windows/Downloads/lab7/vivado.log
+# Journal file: D:/Windows/Downloads/lab7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Windows/Downloads/lab7/lab7.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programs/Xilinix/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:05 . Memory (MB): peak = 696.008 ; gain = 79.316
+update_compile_order -fileset sources_1
+archive_project D:/Windows/Downloads/lab7.xpr.zip -temp_dir D:/Windows/Downloads/lab7/.Xil/Vivado-3344-DESKTOP-NOA060L -force -include_local_ip_cache
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'D:/Windows/Downloads/lab7/.Xil/Vivado-3344-DESKTOP-NOA060L' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [Coretcl 2-1209] Adding archive summary file to the project...
+INFO: [Coretcl 2-1214] Preparing project files for archive...
+INFO: [Coretcl 2-1210] Compressing project files and data...
+INFO: [Coretcl 2-1215] Project archived (D:/Windows/Downloads/lab7.xpr.zip)
+INFO: [Coretcl 2-1216] To view the archive summary log in GUI, double click on 'Design Sources->Text->archive_project_summary.txt', or open this file from the archived project directory.
+archive_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 745.254 ; gain = 6.055
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 10 14:45:11 2020...

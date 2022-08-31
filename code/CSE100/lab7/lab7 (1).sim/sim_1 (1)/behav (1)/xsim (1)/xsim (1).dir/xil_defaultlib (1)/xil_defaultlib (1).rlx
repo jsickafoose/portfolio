@@ -1,0 +1,11 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+D:/Windows/Downloads/lab7/lab7.sim/sim_1/behav/xsim/glbl.v,1582828808,verilog,,,,glbl,,,,,,,,
+D:/Windows/Downloads/lab7/lab7.srcs/sim_1/new/test_top.v,1583525456,verilog,,,,test_top,,,,,,,,
+D:/Windows/Downloads/lab7/lab7.srcs/sources_1/new/blockSize.v,1583262753,verilog,,D:/Windows/Downloads/lab7/lab7.srcs/sources_1/new/counter10UDL.v,,blockSize,,,,,,,,
+D:/Windows/Downloads/lab7/lab7.srcs/sources_1/new/counter10UDL.v,1583269985,verilog,,D:/Windows/Downloads/lab7/lab7.srcs/sources_1/new/lab7_clks.v,,count2UDL;counter10UDL,,,,,,,,
+D:/Windows/Downloads/lab7/lab7.srcs/sources_1/new/lab7_clks.v,1582828808,verilog,,D:/Windows/Downloads/lab7/lab7.srcs/sources_1/new/randomNum.v,,CB4CE_MXILINX_clkcntrl4;FTCE_MXILINX_clkcntrl4;clk_wiz_0;clkcntrl4;lab7_clks,,,,,,,,
+D:/Windows/Downloads/lab7/lab7.srcs/sources_1/new/randomNum.v,1583528496,verilog,,D:/Windows/Downloads/lab7/lab7.srcs/sources_1/new/top_lab7.v,,randomNum;storeNum,,,,,,,,
+D:/Windows/Downloads/lab7/lab7.srcs/sources_1/new/top_lab7.v,1583530567,verilog,,D:/Windows/Downloads/lab7/lab7.srcs/sim_1/new/test_top.v,,top_lab7,,,,,,,,
